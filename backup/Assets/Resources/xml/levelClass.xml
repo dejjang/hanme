@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Root Version="1.0.0.0">
+  <class step="1" velocity="1" createNum="3">
+    <word>
+      하늘이,나날이,바라미,이모티콘,사랑이,고양이,네모,아이,바이,사이
+    </word>
+  </class>
+
+  <class step="2" velocity="2" createNum="4">
+    <word>
+      닮은,젊은이,대한민국,상뭉이,갑빠,호랑이,안녕하세요
+    </word>
+  </class>
+
+  <class step="3" velocity="3" createNum="4">
+    <word>
+      싸이,빠이,갉아먹다,냉장고파묵기,상냥하게,개냥이
+    </word>
+  </class>
+
+  <class step="4" velocity="5" createNum="5">
+    <word>
+      싸이,빠이,갉아먹다,냉장고파묵기,상냥하게,개냥이
+    </word>
+  </class>
+</Root>
