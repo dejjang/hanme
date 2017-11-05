@@ -25,6 +25,14 @@ public class UIMgr : MonoBehaviour {
             Debug.Log("xmlLib is Null!");
             return;
         }
-        m_xmlLib.exe_LoadXml("levelClass");
+
+        float velocity = m_xmlLib.exe_GetClassVelocityAt(0);
+        Debug.Log(string.Format("Velocity: {0:f}",velocity));
+
+        float createNum = m_xmlLib.exe_GetClasscreateNumAt(0);
+        Debug.Log(string.Format("CreateNum: {0:f}", createNum));
+
+        string[] words = m_xmlLib.exe_GetClassWordAt(1);
+        Debug.Log(string.Format("words count:{0:d}", words.Length));
     }
 }
